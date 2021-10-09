@@ -52,4 +52,7 @@ public class DashBoardFormController {
         loadDefault();
     }
 
+    public void itemOnAction(ActionEvent actionEvent) throws IOException {
+        setUi("ItemForm");
+    }
 }
